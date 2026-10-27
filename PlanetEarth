@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Planet Earth</title>
+</head> 
+<body>
+    <h1>Planet Earth</h1>
+    <p>Welcome to the Planet Earth page! Here you can explore various aspects of our planet, including its geography, ecosystems, and environmental issues.</p>
+
+    <h2>Steps to Protect Our Planet:</h2>
+    <ol>
+        <li>Reduce, Reuse, Recycle: Minimize waste by following the 3 R's.</li>
+        <li>Conserve Water: Use water wisely and avoid wastage.</li>
+        <li>Plant Trees: Trees help combat climate change and provide oxygen.</li>
+        <li>Use Renewable Energy: Opt for solar, wind, or other renewable energy sources.</li>
+        <li>Support Sustainable Practices: Choose products and services that are environmentally friendly.</li>
+    </ol>
+
+    <h3>Incredible Facts About Earth:</h3>
+    <ul>
+        <li>Earth is the only known planet to support life.</li>
+        <li>Approximately 71% of Earth's surface is covered by water.</li>
+        <li>Earth has a diverse range of ecosystems, from deserts to rainforests.</li>
+        <li>The planet's atmosphere protects life by blocking harmful solar radiation.</li>
+        <li>Earth's magnetic field helps shield the planet from solar winds.</li>
+    </ul>
+</body>
+</html>
