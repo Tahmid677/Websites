@@ -1,0 +1,23 @@
+body {
+    background-color: darkblue;
+    background-image: url('darkblue.jpg');
+    background-repeat: no-repeat;
+    background-position: top center;
+    font-family: Arial, sans-serif;
+}
+
+.fact-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    text-align: center;
+}
+
+.star-rating {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
