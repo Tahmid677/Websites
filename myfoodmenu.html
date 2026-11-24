@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>My Food Menu</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                background-color: #758665;
+            }
+
+            h1 { color: #23ad61;
+
+                             h1 + p {
+  background: #ffe0b2;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+ul li:nth-child(3) {
+  background: #ffe082;
+  color: #e65c00;
+}
+
+p::first-letter {
+  font-size: 220%;
+  color: #e65c00;
+  font-weight: bold;
+}
+            }
+            .menu {
+                font-family: bold;
+                max-width: 800px;
+                margin: 0 auto;
+                padding: 20px;
+
+                .order {
+                    font-family: bold;
+                    font-size: 1.2em;
+                    margin-bottom: 20px;
+                }
+
+            }
+            .item {
+                background-color: #baca51;
+                margin-bottom: 10px;
+                padding: 10px;
+                border-radius: 5px;
+                box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            }
+            .item h2 {
+                margin: 0;
+                font-size: 1.5em;
+            }
+            .item p {
+                margin: 5px 0;
+            }
+        </style>
+    </head>
+    <body>
+
+        <div class="menu">
+            <h1>My Food Menu</h1>
+            <div class="item">
+                <h2>Spaghetti Bolognese</h2>
+                <p>A classic Italian pasta dish with rich meat sauce.</p>
+            </div>
+            <div class="item">
+                <h2>Caesar Salad</h2>
+                <p>Crisp romaine lettuce with creamy Caesar dressing and croutons.</p>
+            </div>
+            <div class="item">
+                <h2>Grilled Chicken Sandwich</h2>
+                <p>Juicy grilled chicken breast served on a toasted bun with lettuce and tomato.</p>
+            </div>
+            <div class="item">
+                <h2>Chocolate Lava Cake</h2>
+                <p>A decadent dessert with a gooey chocolate center, served warm with vanilla ice cream.</p>
+            </div>
+
+            <div class="order">
+                <h2>Place Your Order</h2>
+                <form action="/submit-order" method="post">
+                    <label for="name">Name:</label><br>
+                    <input type="text" id="name" name="name" required><br><br>
+                    <label for="item">Select Item:</label><br>
+                    <select id="item" name="item" required>
+                        <option value="spaghetti">Spaghetti Bolognese</option>
+                        <option value="salad">Caesar Salad</option>
+                        <option value="sandwich">Grilled Chicken Sandwich</option>
+                        <option value="dessert">Chocolate Lava Cake</option>
+                    </select><br><br>
+                    <input type="submit" value="Submit Order">
+                </form>
+
+            </div>
+        </div>  
+    </body>
+</html>
+        
